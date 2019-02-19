@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 30px;
+  color: white;
+  font-size: 13px;
+  padding-top: 6px;
+  letter-spacing: .5px;
+}
