@@ -5,6 +5,7 @@ import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
 import Noteworthy from './components/Noteworthy';
 import Runway from './components/Runway';
+import AdBreak from './components/AdBreak';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <SectionTwo />
           <Noteworthy />
           <Runway />
+          <AdBreak />
         </main>
       </div>
     );
