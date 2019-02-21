@@ -10,6 +10,10 @@
   text-decoration: underline;
   cursor: pointer;
 }
+.bold {
+  font-weight: bold;
+}
+
 .headers, .menu, .first-section, .second-section, .what-sales, .second-links-parent {
   display: flex;
 }
@@ -190,4 +194,67 @@ h1 {
   background-image: url('https://dailydoseofcharm.com/wp-content/uploads/2018/07/Orange-twist-top-free-people-cardigan-nordstrom-anniversary-sale-2018-fall-outfit-on-daily-dose-of-charm-by-lauren-lindmark-4P6A6640.jpg');
   background-size: cover;
   height: 500px;
+}
+/* END OF NOTEWORTHY */
+
+/* RUNWAY */
+.runway {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  width: 100%;
+}
+.run-1 {
+  margin-right: 40px;
+  background-image: url('https://cdn.shopify.com/s/files/1/1072/2632/products/Georgia-floral-dress-front-champagne_2048x.jpg?v=1533413415');
+  height: 800px;
+  width: 790px;
+  background-size: cover;
+}
+.run-2 {
+  background-image: url('https://i.pinimg.com/736x/88/60/85/886085c778ab74639505098b81aa934c.jpg');
+  height: 800px;
+  width: 790px;
+  background-size: cover;
+}
+.runway-titles {
+  text-align: center;
+  padding-top: 60px;
+  background-color: rgb(211, 208, 208);
+  height: 300px;
+}
+.run-1-title {
+  margin-right: 40px;
+}
+.run-nature {
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.run-desc {
+  margin-bottom: 20px;
+  padding: 0 200px 0 200px;
+}
+.run-spacing {
+  margin-right: 20px;
+}
+.run2-spacing {
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+.link-spacing-run2 {
+  margin-right: 25px;
+}
+.run-2-title {
+  font-size: 100px;
+  font-family: 'Cinzel', serif;
+  font-weight: lighter;
+}
+.your-way {
+  font-size: 20px;
+  position: relative;
+  width: 10px;
+  top: -90px;
+  left: 610px;
 }

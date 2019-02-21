@@ -4,6 +4,7 @@ import Headers from './components/Headers';
 import SectionOne from './components/SectionOne'; 
 import SectionTwo from './components/SectionTwo';
 import Noteworthy from './components/Noteworthy';
+import Runway from './components/Runway';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <SectionOne />
           <SectionTwo />
           <Noteworthy />
+          <Runway />
         </main>
       </div>
     );
