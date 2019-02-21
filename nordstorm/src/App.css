@@ -260,9 +260,87 @@ h1 {
 /* END OF RUNWAY */
 
 /* ADBREAK */
-.adbreak {
+.hello {
+  display: flex;
+  justify-content: space-around;
   margin-top: 200px;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
-  height: 400px;
+  padding: 40px;
+  height: 300px;
+  width: 100%;
+  border-top: 2px solid rgb(226, 226, 226);
+  border-bottom: 2px solid rgb(226, 226, 226);
 }
+.hello-pics {
+  width: 200px;
+}
+.h-1 {
+  background-image: url('https://www.sitejabber.com/img/urls/2524/picture_53566.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.h-2 {
+  background-image: url('https://www.shefinds.com/files/2017/08/nord_dress3.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.h-3 {
+  background-image: url('https://n.nordstrommedia.com/ImageGallery/store/product/Zoom/14/_104988034.jpg?h=365&w=240&dpr=2&quality=45&fit=fill&fm=jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.h-4 {
+  background-image: url('https://www.brightontheday.com/wp-content/uploads/2016/04/wearing-a-kimono-as-a-swim-cover-up-650x996.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.break-text {
+  font-size: 18px;
+  margin-top: 70px;
+}
+/* END AD BREAK */
+
+/* CATEGORY */
+.category {
+  display: flex;
+  margin: 10px;
+  width: 100%;
+}
+.cat-size {
+  margin: 0 20px 0 0;
+  width: 20%;
+}
+.cat-text {
+  margin: 8px;
+}
+.cat-designer {
+  background-image: url('https://phaseeight.btxmedia.com/pws/client/images/catalogue/products/750687736/large/750687736_1.jpg');
+  height: 350px;
+  background-size: cover;
+}
+.cat-women {
+  background-image: url('https://images.express.com/is/image/expressfashion/0086_06416500_0001?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon');
+  height: 350px;
+  background-size: cover;
+}
+.cat-men {
+  background-image: url('https://www3.assets-gap.com/webcontent/0011/247/651/cn11247651.jpg');
+  height: 350px;
+  background-size: cover;
+}
+.cat-kids {
+  background-image: url('https://assets.parents.com/s3fs-public/images/550_101168098.jpg?MxP_S_K4wIV0Wu_ruKoKeprdw0z73Vof');
+  height: 350px;
+  background-size: cover;
+}
+.cat-home {
+  background-image: url('https://mpb2cprod.azureedge.net/495fa9/globalassets/home_shopbytrend_chateau.jpg');
+  height: 350px;
+  background-size: cover;
+}
+.cat-frag {
+  background-image: url('https://images.pexels.com/photos/1308885/pexels-photo-1308885.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  height: 350px;
+  background-size: cover;
+}
+/* END CATEGORY */
+

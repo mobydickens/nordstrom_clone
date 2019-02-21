@@ -5,7 +5,8 @@ import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
 import Noteworthy from './components/Noteworthy';
 import Runway from './components/Runway';
-import AdBreak from './components/AdBreak';
+import AdBreak from './components/AdBreak.jsx';
+import Category from './components/Category';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Noteworthy />
           <Runway />
           <AdBreak />
+          <Category />
         </main>
       </div>
     );
