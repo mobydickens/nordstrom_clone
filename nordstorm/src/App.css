@@ -5,12 +5,16 @@
   font-family: 'Dosis', sans-serif;
 }
 
-/* HEADERS */
-
+/* MANY OF THE SAME STYLES */
+.underlined, .second-links, .what-sales {
+  text-decoration: underline;
+  cursor: pointer;
+}
 .headers, .menu, .first-section, .second-section, .what-sales, .second-links-parent {
   display: flex;
 }
 
+/* HEADERS */
 .black-header {
   display: flex;
   justify-content: center;
@@ -101,7 +105,6 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  text-decoration: underline;
   cursor: pointer;
   text-align: center;
   margin-top: 20px;
@@ -145,7 +148,46 @@ h1 {
   margin-bottom: 10px;
 }
 .second-links {
-  text-decoration: underline;
   margin: 20px 20px 0 0;
   font-weight: bolder;
+}
+
+/* NOTEWORTHY */
+.noteworthy {
+  font-family: 'Cinzel', serif;
+  width: 100%;
+}
+.new-title {
+  font-size: 28px;
+  text-align: center;
+  margin: 200px 0 40px 0;
+}
+.note-photo-box {
+  display: flex;
+  width: 100%;
+}
+.noteworthy-photos {
+  width: 500px;
+  margin: 20px;
+}
+.noteworthy-text {
+  margin: 6px 6px 6px 0;
+}
+.space-noteworthy {
+  margin-left: 20px;
+}
+.note-1 {
+  background-image: url('https://thestripe.com/wp-content/uploads/2015/03/happy-girls-wear-stripes.jpg');
+  background-size: cover;
+  height: 500px;
+}
+.note-2 {
+  background-image: url('https://i.pinimg.com/originals/71/f8/5e/71f85e45aa22fc773f5183403d671064.jpg');
+  background-size: contain;
+  height: 500px;
+}
+.note-3 {
+  background-image: url('https://dailydoseofcharm.com/wp-content/uploads/2018/07/Orange-twist-top-free-people-cardigan-nordstrom-anniversary-sale-2018-fall-outfit-on-daily-dose-of-charm-by-lauren-lindmark-4P6A6640.jpg');
+  background-size: cover;
+  height: 500px;
 }

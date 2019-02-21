@@ -3,6 +3,7 @@ import './App.css';
 import Headers from './components/Headers';
 import SectionOne from './components/SectionOne'; 
 import SectionTwo from './components/SectionTwo';
+import Noteworthy from './components/Noteworthy';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <main className='main'>
           <SectionOne />
           <SectionTwo />
+          <Noteworthy />
         </main>
       </div>
     );
